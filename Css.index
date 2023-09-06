@@ -1,0 +1,102 @@
+.container {
+max-width: 800px;
+margin: 0 auto;
+padding: 40px;
+background-color: #fff;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
+.container2{
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+font-size: 36px;
+}
+
+p {
+font-size: 18px;
+line-height: 1.6;
+}
+
+.cta-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #8b00fc;
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+border-radius: 5px;
+margin-top: 20px;
+}
+
+/* Seção de recursos */
+#features {
+background-color: #f7f7f7;
+padding: 40px 0;
+}
+
+.feature {
+flex: 1;
+padding: 20px;
+background-color: #fff;
+text-align: center;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+margin: 10px;
+}
+
+.feature h3 {
+font-size: 24px;
+margin-top: 10px;
+}
+
+.feature p {
+font-size: 16px;
+}
+
+/* Formulário de inscrição */
+#signup {
+text-align: center;
+background-color: #e4e4e4;
+padding: 40px 0;
+}
+
+.subscribe-form input[type="email"] {
+padding: 10px;
+width: 100%;
+margin-bottom: 10px;
+border: none;
+border-radius: 5px;
+}
+
+.subscribe-form .subscribe-button {
+padding: 10px 20px;
+background-color: #fff;
+color: #007BFF;
+text-decoration: none;
+font-size: 18px;
+border-radius: 5px;
+}
+
+.subscribe-form .subscribe-button:hover {
+background-color: #007BFF;
+color: #fff;
+}
+
+/* Rodapé */
+#contact {
+background-color: #333;
+color: #fff;
+padding: 20px 0;
+text-align: center;
+}
+.logo img{
+  position: relative;
+  height: 180px;
+  width: auto;
+  left:-500px;
+  
+}
