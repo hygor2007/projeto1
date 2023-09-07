@@ -1,102 +1,140 @@
-.container {
-max-width: 800px;
-margin: 0 auto;
-padding: 40px;
-background-color: #fff;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-border-radius: 5px;
+/* Reset de Estilos para Normalizar o Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container2{
-  display: flex;
-  flex-direction: column;
+/* Estilos Gerais */
+body {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: rgb(235, 235, 235);
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(19, 17, 17);
+    color: rgb(248, 248, 248);
+    padding: 1rem 0;
 }
 
-h1 {
-font-size: 36px;
+nav ul {
+    list-style-type: none;
+    margin-left: 70px;
 }
 
-p {
-font-size: 18px;
-line-height: 1.6;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
 }
 
 .cta-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #8b00fc;
-color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: rgb(24, 20, 20);
+}
+
+/* About Section */
+.about {
+    background-color: rgb(26, 25, 25);
+    padding: 4rem 0;
+    text-align: center;
+    border-color: #f0f0f0;
+    border-width: 3px;
+}
+/* Services Section */
+.services {
+    background-color: #f0f0f0
+  margin-top: 200px;
+}
+
+.services ul {
+    list-style-type: none;
+}
+
+.services ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+/* Contact Section */
+.contact {
+    padding: 4rem 0;
+    text-align: center;
+}
+.contact form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.contact button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+.marcus{
+  background-color: rgb(8, 252, 240);
+  padding: 15px;
+  border-radius: 5px;
+color: rgb(6, 6, 6);
 text-decoration: none;
-font-size: 18px;
-border-radius: 5px;
-margin-top: 20px;
 }
 
-/* Seção de recursos */
-#features {
-background-color: #f7f7f7;
-padding: 40px 0;
-}
-
-.feature {
-flex: 1;
-padding: 20px;
-background-color: #fff;
-text-align: center;
-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-border-radius: 5px;
-margin: 10px;
-}
-
-.feature h3 {
-font-size: 24px;
-margin-top: 10px;
-}
-
-.feature p {
-font-size: 16px;
-}
-
-/* Formulário de inscrição */
-#signup {
-text-align: center;
-background-color: #e4e4e4;
-padding: 40px 0;
-}
-
-.subscribe-form input[type="email"] {
-padding: 10px;
-width: 100%;
-margin-bottom: 10px;
-border: none;
-border-radius: 5px;
-}
-
-.subscribe-form .subscribe-button {
-padding: 10px 20px;
-background-color: #fff;
-color: #007BFF;
-text-decoration: none;
-font-size: 18px;
-border-radius: 5px;
-}
-
-.subscribe-form .subscribe-button:hover {
-background-color: #007BFF;
-color: #fff;
-}
-
-/* Rodapé */
-#contact {
-background-color: #333;
-color: #fff;
-padding: 20px 0;
-text-align: center;
-}
-.logo img{
-  position: relative;
-  height: 180px;
-  width: auto;
-  left:-500px;
-  
+.marcus:hover{
+  background-color: rgb(14, 255, 243);
 }
