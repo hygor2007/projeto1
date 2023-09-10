@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +13,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page Profissional</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Lembre-se de criar um arquivo CSS para estilizar sua página -->
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
     <header>
@@ -28,33 +26,87 @@
             </ul>
         </nav>
     </header>
+<br> <br>
+<img class="imagem-centralizada" 
+     src=https://i.imgur.com/PKPzB9o.png
+      </ul>
+
 
     <section class="hero">
         <h1>Bem-vindo à Pagina oficial do curso
           Técnico em Desenvolvimento de Sistemas
         </h1>
+
         <p>Curso Profissionalizante oferecido pela instituição de ensino Dirce Celestino do amaral
           em Curitiba
         </p>
-        <a class="marcus" href="#contato" class="cta-button">Fazer Inscrição</a>
+       
+    
     </section>
 
-    <section class="about">
-        <h2>Sobre Nós</h2>
-        <p>Somos uma instituição de Ensino localizada em Curitiba na Rua Pedro Gusso- Cidade Industrial de Curitiba, Curitiba - PR</p>
     </section>
+  
+    <section class="hero">
+        <h2>➸Sobre Nós</h2>
+        <br>
+            <li>Somos uma instituição de Ensino localizada em Curitiba na Rua Pedro Gusso- Cidade Industrial de Curitiba, Curitiba - PR</li>
+            <section class="hero">
+         <br> 
+          <h2>➸Para o'que serve ?</h2>  
+            <br> 
+            <li>Um curso de desenvolvimento de sistemas busca capacitar os estudantes ou profissionais para projetar, construir, testar e manter sistemas de software de alta qualidade. O objetivo principal é fornecer conhecimentos e habilidades para que os participantes possam criar aplicações de software eficientes e funcionais que atendam às necessidades dos usuários e das organizações.</li>
+            
+  <br> <br> 
 
-    <section class="services">
-        <h2>Nossos Serviços</h2>
-        <ul>
-            <li>Serviço 1</li>
-            <li>Serviço 2</li>
-            <li>Serviço 3</li>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout de Três Colunas</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    
+    <h2>➸Motivos para fazer o curso</h2>
+    <div class="coluna">
+        <h2>1</h2>
+        <p>Oportunidades de Carreira: A demanda por profissionais de desenvolvimento de sistemas está em constante crescimento. Ao adquirir habilidades nessa área, você estará em uma posição favorável para explorar uma ampla gama de oportunidades de carreira, desde desenvolvedor de software até arquiteto de sistemas e gerente de projetos de TI.
+            <br>  <br>  
+        </p>
+    </div>
+
+    <div class="coluna">
+        <h2>2</h2>
+        <p>Remuneração Competitiva: Os profissionais de desenvolvimento de sistemas geralmente recebem salários competitivos. À medida que você ganha experiência e habilidades adicionais, suas perspectivas de remuneração também aumentam. Isso pode proporcionar estabilidade financeira e um padrão de vida melhor.
+            <br><br>  <br>   
+        </p>
+    </div>
+
+    <div class="coluna">
+        <h2>3</h2>
+        <p>Criatividade e Solução de Problemas: Desenvolver software é uma atividade altamente criativa e desafiadora. Se você gosta de resolver problemas complexos e criar soluções inovadoras, a programação e o desenvolvimento de sistemas podem ser uma escolha gratificante. Você terá a oportunidade de trabalhar em projetos interessantes e impactantes.</p>
+    </div>
+
+    <div class="clearfix"></div>
+</body>
+</html>
+<br>  
+
+            <img class="imagem-centralizada" 
+            src=https://i.pinimg.com/564x/c4/18/5b/c4185be9987e1b97257fa43e0798b35a.jpg
         </ul>
-    </section>
 
     <section class="contact" id="contato">
-        <h2>Entre em Contato</h2>
+        
+         <section class="about">
+        <h2>Tempo </h2>
+        <p>nosso curso tem a duração de 3 anos, ganhando todos os certificados ao concluir tudo   </p>
+    </section>
+   <br>
+        <h2>Fale conosco</h2>
         <p>Preencha o formulário abaixo para entrar em contato conosco.</p>
         <form>
             <label for="nome">Nome:</label>
@@ -70,9 +122,15 @@
         </form>
     </section>
 
-    <footer>
-        <p>&copy; 2023 Dirce Celestino Do Amaral</p>
-    </footer>
+   
+   
+   
+   
+<br>  <br> 
+
+
+
+
 </body>
 </html>
 <!DOCTYPE html>
@@ -82,7 +140,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapa Funcional</title>
     <style>
-        /* Estilize o contêiner do mapa */
+        
         #map {
             height: 400px;
             width: 100%;
@@ -93,18 +151,18 @@
     <div id="map"></div>
 
     <script>
-        // Inicialize o mapa
+        
         function initMap() {
-            // Coordenadas do local que deseja exibir no mapa
+          
             var myLatLng = { lat: -23.5505, lng: -46.6333 };
 
-            // Crie um mapa
+           
             var map = new google.maps.Map(document.getElementById('map'), {
                 center: myLatLng,
-                zoom: 12 // Nível de zoom inicial
+                zoom: 12 
             });
 
-            // Adicione um marcador no mapa
+            
             var marker = new google.maps.Marker({
                 position: myLatLng,
                 map: map,
@@ -113,11 +171,50 @@
         }
     </script>
 
-    <!-- Inclua a API JavaScript do Google Maps -->
+   
     <script src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_DE_API&callback=initMap" async defer></script>
 </body>
 </html>
+<br>  <br>  <br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Avaliação</title>
+</head>
+<body>
+    <h1>Avalie nosso serviço</h1>
+    
+    <form action="processar-avaliacao.php" method="post">
+        <p>Por favor, avalie de 1 a 5 estrelas:</p>
+        
+        <input type="radio" id="estrela5" name="avaliacao" value="5">
+        <label for="estrela5">5 estrelas</label><br>
+        
+        <input type="radio" id="estrela4" name="avaliacao" value="4">
+        <label for="estrela4">4 estrelas</label><br>
+        
+        <input type="radio" id="estrela3" name="avaliacao" value="3">
+        <label for="estrela3">3 estrelas</label><br>
+        
+        <input type="radio" id="estrela2" name="avaliacao" value="2">
+        <label for="estrela2">2 estrelas</label><br>
+        
+        <input type="radio" id="estrela1" name="avaliacao" value="1">
+        <label for="estrela1">1 estrela</label><br>
+        
+        <p>Deixe um comentário (opcional):</p>
+        <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br>
 
+        <input type="submit" value="Enviar Avaliação">
+    </form>
+</body>
+</html>
+<br>  <br>  <br>
 
+<footer>
+        <p>&copy; 2023 Dirce Celestino Do Amaral</p>
+    </footer>
 </body>
 </html>
