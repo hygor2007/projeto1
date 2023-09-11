@@ -56,7 +56,7 @@
             <br> 
             <li>Um curso de desenvolvimento de sistemas busca capacitar os estudantes ou profissionais para projetar, construir, testar e manter sistemas de software de alta qualidade. O objetivo principal é fornecer conhecimentos e habilidades para que os participantes possam criar aplicações de software eficientes e funcionais que atendam às necessidades dos usuários e das organizações.</li>
             
-  <br> <br> 
+  
 
  <!DOCTYPE html>
 <html lang="en">
@@ -74,14 +74,14 @@
     <div class="coluna">
         <h2>1</h2>
         <p>Oportunidades de Carreira: A demanda por profissionais de desenvolvimento de sistemas está em constante crescimento. Ao adquirir habilidades nessa área, você estará em uma posição favorável para explorar uma ampla gama de oportunidades de carreira, desde desenvolvedor de software até arquiteto de sistemas e gerente de projetos de TI.
-            <br>  <br>  
+           
         </p>
     </div>
 
     <div class="coluna">
         <h2>2</h2>
         <p>Remuneração Competitiva: Os profissionais de desenvolvimento de sistemas geralmente recebem salários competitivos. À medida que você ganha experiência e habilidades adicionais, suas perspectivas de remuneração também aumentam. Isso pode proporcionar estabilidade financeira e um padrão de vida melhor.
-            <br><br>  <br>   
+             
         </p>
     </div>
 
@@ -101,11 +101,76 @@
 
     <section class="contact" id="contato">
         
-         <section class="about">
-        <h2>Tempo </h2>
-        <p>nosso curso tem a duração de 3 anos, ganhando todos os certificados ao concluir tudo   </p>
-    </section>
+         <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Perguntas Frequentes</title>
+    <style>
+        /* Estilo para a lista de perguntas e respostas */
+        .faq-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .faq-answer {
+            display: none;
+        }
+
+        /* Estilo para alternar o estado visível/invisível das respostas */
+        .faq-item.open .faq-answer {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Perguntas Frequentes</h1>
+
+    <ul class="faq-list">
+        <li class="faq-item">
+            <div class="faq-question">O que é HTML?</div>
+            <div class="faq-answer">
+                HTML (HyperText Markup Language) é a linguagem de marcação usada para criar páginas da web. Ela permite que você estruture o conteúdo de uma página web usando elementos como cabeçalhos, parágrafos, links e imagens.
+            </div>
+        </li>
+        <li class="faq-item">
+            <div class="faq-question">Como criar um link em HTML?</div>
+            <div class="faq-answer">
+                Para criar um link em HTML, você pode usar o elemento `<a>`. Por exemplo:
+                <pre>&lt;a href="https://www.exemplo.com"&gt;Texto do Link&lt;/a&gt;</pre>
+            </div>
+        </li>
+        <li class="faq-item">
+            <div class="faq-question">Qual a diferença entre HTML e CSS?</div>
+            <div class="faq-answer">
+                HTML é usado para estruturar o conteúdo de uma página web, enquanto CSS (Cascading Style Sheets) é usado para estilizar esse conteúdo. CSS controla a aparência, como cores, fontes e layout, enquanto HTML define a estrutura e o significado do conteúdo.
+            </div>
+        </li>
+    </ul>
+
+    <script>
+        // Adicione um evento de clique para alternar o estado das respostas
+        var faqItems = document.querySelectorAll('.faq-item');
+
+        faqItems.forEach(function(item) {
+            item.addEventListener('click', function() {
+                this.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+</html>
    <br>
+  
         <h2>Fale conosco</h2>
         <p>Preencha o formulário abaixo para entrar em contato conosco.</p>
         <form>
@@ -133,50 +198,28 @@
 
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapa Funcional</title>
-    <style>
-        
-        #map {
-            height: 400px;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-    <div id="map"></div>
 
-    <script>
-        
-        function initMap() {
-          
-            var myLatLng = { lat: -23.5505, lng: -46.6333 };
 
-           
-            var map = new google.maps.Map(document.getElementById('map'), {
-                center: myLatLng,
-                zoom: 12 
-            });
+<div class="mapa">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.9685097080724!2d-49.323280323724084!3d-25.50609673590865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce33294da5137%3A0x264732ceae89ba60!2sCol%C3%A9gio%20Estadual%20Prof%20Dirce%20Celestino%20do%20Amaral!5e0!3m2!1spt-BR!2sbr!4v1694445207719!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            
-            var marker = new google.maps.Marker({
-                position: myLatLng,
-                map: map,
-                title: 'Meu Local'
-            });
-        }
-    </script>
-
-   
-    <script src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_DE_API&callback=initMap" async defer></script>
-</body>
-</html>
-<br>  <br>  <br>
-<!DOCTYPE html>
+  </div>
+  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <br><br>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
