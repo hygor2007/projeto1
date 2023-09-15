@@ -140,44 +140,63 @@
               }
             </style>
 
-            <h1>Perguntas Frequentes</h1>
+           <!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perguntas Frequentes</title>
+</head>
 
-<section class="perg"> 
-  <details>
-    <summary>Qual é o tempo de duração</summary>
-    <p>
-      O tempo de Duração deste curso é de 3 anos, o aluno faz o ensino médio juntamente do curso TDS
-    </p>
-  </details>
-</section>
+<body>
+  <div class="container">
+    <h1 class="duvidas">Dúvidas Frequentes</h1>
 
-<section class="perg"> 
-  <details>
-    <summary>Qual é o valor para inscrição</summary>
-    <p>
-      O curso é totalmente de graça, não há nenhum valor a ser pago pelas aulas ou materiais (computador e tablet)
-    </p>
-  </details>
-</section>
+    <div class="faq-item">
+      <div class="question">Qual é o tempo de duração do curso?</div>
+      <div class="answer">O curso tem a duração de 3 anos totalizando 1200 horas </div>
+    </div>
 
-<section class="perg">
-  <details>
-    <summary>Quantas matérias tem dentro do curso</summary>
-    <p>
-      O curso é composto por 5 matérias sendo elas Banco de dados, Programação mobile, Programação front-end, análise e projeto de sistemas e ciencias da computação.
-    </p>
-  </details>
-</section>
+    <div class="faq-item">
+      <div class="question">Qual é o valor para inscrição do curso?</div>
+      <div class="answer">O curso e totalmente de graça não haverá nenhum valor a ser pago pelas aulas ou materiasis
+        (computadores e tablets)</div>
+    </div>
 
-<section class="perg">
-  <details>
-    <summary>Vou ganhar um certificado?</summary>
-    <p>
-      Sim, no final do curso o aluno ganhará, um certificado e pode imprimi-lo na secretária da escola
-    </p>
-  </details>
-</section>
+    <div class="faq-item">
+      <div class="question">Quantas matérias tem no curso?</div>
+      <div class="answer">O curso e composto por 5 matérias sendo elas: Banco de Dados, Programação front-end,
+        Programação Mobile, APS(Analise e projeto de sistemas), Ciencias da Computação </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="question">Vou ganhar um certificado?</div>
+      <div class="answer">Sim, assim que o aluno concluir o ensino médio ele ira ganhar um certificado.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="question">Quais são os pré requisitos para ingressar no curso?</div>
+      <div class="answer"> Para ingresso no Curso Técnico Integrado ao Ensino Médio, o estudante deverá ter concluído o
+        Ensino Fundamental. </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="question">Quem serão os professores?</div>
+      <div class="answer"> Lucas josé (front-end, Banco de Ddos e APS) e Wesley Reinaldo (ciencias da Computação), a
+        matéria de programação mobile tem suas aulas apresentadas através de uma chamada no google meet. </div>
+    </div>
+ <script>
+        // JavaScript para tornar as respostas das perguntas visíveis/ocultas ao clicar na pergunta
+        const questions = document.querySelectorAll('.question');
+
+        questions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
 
 
             <script>
