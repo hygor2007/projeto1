@@ -1,0 +1,35 @@
+body {
+    position: relative;
+    top: 10px;
+    left: 50px;
+    font-family: Arial, sans-serif;
+    color: blue;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+}
+
+#imagem {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#imagem:hover {
+    transform: scale(1.1);
+}
+
+.profs1{
+display: flex;
+}
+.profs2{
+    position: relative;
+    top: 10px;
+    left: 100px;
+    font-family: Arial, sans-serif;
+    color: blue;
+
+
+}
